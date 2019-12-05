@@ -18,8 +18,8 @@ const passport = require('passport');
 const NaverStrategy = require('passport-naver').Strategy;
 const session = require('express-session');
 //key
-const client_id = 'RmIfrxVx6Dg44U7YKze5';
-const client_secret = '8abcnAqsU9';
+const client_id = 'client_id';
+const client_secret = 'client_secret';
 const callback_url = 'http://local2.playentry.org/auth/naver/callback';
 
 passport.serializeUser((user, done) => {
